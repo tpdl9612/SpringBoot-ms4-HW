@@ -29,8 +29,7 @@ public class SecurityConfig {
                         .invalidateHttpSession(true)
                         .logoutSuccessUrl("/login")
                 );
-
-        return http.build();
+           return http.build();
     }
 
     @Bean
